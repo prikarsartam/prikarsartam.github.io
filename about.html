@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>particles.js</title>
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+</head>
+<body>
+
+
+
+
+
+
+    <div id="abc">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="article_stand.html">Article Stand</a></li>
+                <li><a href="planet.html">Planet Polemics & Progress</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+
+
+
+
+
+<!-- count particles -->
+<div class="count-particles">
+  <span class="js-count-particles">--</span> particles
+
+
+</div>
+
+
+
+
+<div id="particles-js"></div>
+
+<div class="text" align='center'>
+
+
+<img class="my_image" src="prikarsartam_profile.png" alt="my_image">
+<br>
+<br>
+
+  <h1>Pritam Sarkar</h1>
+  <br>
+  <h2>Integrated BS-MS with Physics Major : 2019-2024</h2>
+  <br>
+  <h2>@ Indian Association for the Cultivation of Science, Kolkata</h2>
+  <br>
+  <br>
+  <h3>Email : prikarsartam@gmail.com</h3>
+  <br>
+  <br>
+  <h3>Mobile Number : +91 - 8617737607</h3>
+  <br>
+  <br>
+  <a href="https://github.com/prikarsartam"><b>GitHub</b></a>
+
+</div>
+
+
+<!-- scripts -->
+<script src="particles.js"></script>
+<script src="js/app.js"></script>
+
+<!-- stats.js -->
+<script src="js/lib/stats.js"></script>
+
+
+
+
+
+
+
+<script>
+  var count_particles, stats, update;
+  stats = new Stats;
+  stats.setMode(0);
+  stats.domElement.style.position = 'absolute';
+  stats.domElement.style.left = '0px';
+  stats.domElement.style.top = '0px';
+  document.body.appendChild(stats.domElement);
+  count_particles = document.querySelector('.js-count-particles');
+  update = function() {
+    stats.begin();
+    stats.end();
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+
+
+
+
+
+
+</script>
+
+
+
+
+</body>
+</html>

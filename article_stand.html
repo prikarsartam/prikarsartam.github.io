@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>particles.js</title>
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+</head>
+<body>
+
+
+
+
+
+
+    <div id="abc">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="article_stand.html">Article Stand</a></li>
+                <li><a href="planet.html">Planet Polemics & Progress</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+
+
+
+
+
+<!-- count particles -->
+<div class="count-particles">
+  <span class="js-count-particles">--</span> particles
+
+
+</div>
+
+
+
+
+<div id="particles-js"></div>
+
+<div class="text" align='center'>
+
+
+  <h1>Articles</h1>
+  <br>
+  <!-- <p>Using <a href="https://github.com/VincentGarreau/particles.js/">ParticlesJS</a> and well.. that's about it, actually ¯\_(ツ)_/¯</p> -->
+  <button style="color:#A71111" onclick="location.href='thoughts-on-thought.html'" class="button button0"><b>Thoughts on Thoughts</b>- 12th May, 2022</button>
+  <br>
+
+  <button style="color:#A71111" onclick="location.href='From-Random-to-Kingdom.html'" class="button button1"><b>From Random to Kingdom</b> - 26th May, 2022</button>
+  <br>
+
+  <button style="color:#A71111" onclick="location.href='Information-in-nature.html'" class="button button2"><b>Critical Information in Nature</b>- 11th June, 2022</button>
+  <br>
+
+   <button style="color:#A71111" onclick="location.href='on-message-and-meaning.html'" class="button button6"><b>On Message and Meaning</b> - 4th July, 2022</button>
+   <br>
+
+  <button style="color:#A71111" onclick="location.href='Exploring-Large-Language-Models.html'" class="button button3"><b>Exploring Large Language Models</b> - 5th July, 2022</button>
+    <br>
+
+      <button style="color:#A71111" onclick="location.href='Formal-absolution.html'" class="button button5"><b>Sketches on Formal Absolution</b> - 21st September, 2022</button>
+<br>
+  <button style="color:#A71111" onclick="location.href='nature_of_logic___logic_of_nature.html'" class="button button4"><b>Nature of Logic =//= Logic of Nature : 1</b> - 27th October, 2022</button>
+
+</div>
+
+
+<!-- scripts -->
+<script src="particles.js"></script>
+<script src="js/app.js"></script>
+
+<!-- stats.js -->
+<script src="js/lib/stats.js"></script>
+
+
+
+
+
+
+
+<script>
+  var count_particles, stats, update;
+  stats = new Stats;
+  stats.setMode(0);
+  stats.domElement.style.position = 'absolute';
+  stats.domElement.style.left = '0px';
+  stats.domElement.style.top = '0px';
+  document.body.appendChild(stats.domElement);
+  count_particles = document.querySelector('.js-count-particles');
+  update = function() {
+    stats.begin();
+    stats.end();
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+
+
+
+
+
+
+</script>
+
+
+
+
+</body>
+</html>

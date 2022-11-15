@@ -1,0 +1,214 @@
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none}
+
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+/* ---- base ---- */
+
+html,body{ 
+	width:100%;
+	height:100%;
+	background:#111;
+}
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+img.my_image {
+  height: 35%;
+  width: 35%;
+} 
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 200%;
+  background: #00356B;
+}
+
+.text {
+  position: absolute;
+  top: 70%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  color: #fff;
+  max-width: 90%;
+  padding: 2em 3em;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0px 0px 2px #131415;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 2.25em;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+a,
+a:visited {
+  color: #e34234;
+  transition: 0.25s;
+}
+
+a:hover,
+a:focus {
+  color: #ba160c;
+}
+*{
+  margin:0;
+  padding:0;
+  font-family:verdana;
+  background: transparent;
+
+}   
+nav{
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  line-height: 50px;
+}
+nav ul{
+  float: right;
+  margin-right: 30px;
+  background-color: transparent;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.7s all;
+}
+nav ul li:hover{
+  background-color:#088;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 30px;
+}
+
+
+    .button {
+      position: relative;
+  border: none;
+  color: transparent;
+  background: transparent;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inherit;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.6s;
+  cursor: pointer;
+  background-color: transparent;
+  z-index: 9000;
+}
+
+
+.button0 {
+  background-color: transparent; 
+  position: relative;
+  z-index: 9000;
+  color: black; 
+  border: 2px solid #539dce;
+}
+
+.button0:hover {
+   position: relative;
+   z-index: 9000;
+  background-color: #539dce;
+  color: white;
+}
+
+.button1 {
+  background-color: transparent; 
+  color: black; 
+  border: 2px solid #539dce;
+  background: transparent;
+}
+
+.button1:hover {
+  background-color: #539dce;
+  color: white;
+}
+
+.button2 {
+  background-color: transparent; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button3 {
+  background-color: transparent; 
+  color: black; 
+  border: 2px solid #539dce;
+}
+
+.button3:hover {
+  background-color: #539dce;
+  color: white;
+}
+
+.button4 {
+  background-color: transparent; 
+  color: black; 
+  border: 2px solid #539dce;
+}
+
+.button4:hover {
+  background-color: #539dce;
+  color: white;
+}
+
+.button5 {
+  background-color: transparent; 
+  color: black; 
+  border: 2px solid #539dce;
+}
+
+.button5:hover {
+  background-color: #539dce;
+  color: white;
+}
+
+.button6 {
+  background-color: transparent; 
+  color: black; 
+  border: 2px solid #539dce;
+}
+
+.button6:hover {
+  background-color: #539dce;
+  color: white;
+}
