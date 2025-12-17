@@ -5194,7 +5194,7 @@ l0,-`+(n+144)+`c-2,-159.3,-10,-310.7,-24,-454c-53.3,-528,-210,-949.7,
   padding: 6px 10px 10px 10px;
 
   @media  {
-    padding-bottom: 80px;
+    padding-bottom: 120px;
   }
 `,Jj=Ye.div`
   font-size: 15px;
