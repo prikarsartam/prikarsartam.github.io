@@ -8,5 +8,5 @@ export default defineConfig({
         setupFiles: ['./src/setupTests.ts'],
     },
 
-    base: "/prikarsartam.github.io",
+    base: "/",
 });
