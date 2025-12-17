@@ -62,7 +62,7 @@ export const useStore = create<AppState>()(
             toggleHierarchySidebar: () => set((state) => ({ hierarchySidebarOpen: !state.hierarchySidebarOpen })),
 
             // Theme
-            theme: 'dark',
+            theme: 'light',
             toggleTheme: () => set((state) => ({ theme: state.theme === 'dark' ? 'light' : 'dark' })),
 
             // Search
