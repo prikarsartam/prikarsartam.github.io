@@ -61,7 +61,7 @@ export const ScrollArea = styled.div`
   padding: 6px 10px 10px 10px;
 
   @media  {
-    padding-bottom: 120px;
+    padding-bottom: 130px;
   }
 `;
 

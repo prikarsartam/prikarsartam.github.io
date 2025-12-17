@@ -2,15 +2,9 @@ Pritam Sarkar - hypernotework
 
 ---
 
-
-# [objects are simple](http://prikarsartam.github.io/) 
-
-### - 💬 *MOTTO :*   “ . . .  and anything that man knows, which is not merely rumbling and roaring of mankind, can be said in three words.” - F. Kürnberger [The introductory premise of [*Tractatus Logico Philosophicus*](https://writing.upenn.edu/library/Wittgenstein-Tractatus.pdf) by [*Ludwig Wittgenstein*](https://en.wikipedia.org/wiki/Ludwig_Wittgenstein) ].
-
+Scale-free structures are naturally ubiquitous and give rise to hierarchies of objects and concepts at different scales of complexity. Whether a collection of diverse articles is concerned or semantic knowledge graphs of complex text, a scale-free representation of the bird's-eye-view captures the long-range interdependence within, due to the universally critical nature of every major language. However hierarchical graphs are known to be impossible to isometrically (preserving the distances) embed in any Euclidean manifold; but possible, within hyperbolic geometry. The graph in this webapp is made to resemble the discretized geogesics of Poincaré disk model of 2D hyperbolic geometry.
 
 ---
-
-Scale-free structures are naturally ubiquitous and give rise to hierarchies of objects and concepts at different scales of complexity. Whether a collection of diverse articles is concerned or semantic knowledge graphs of complex text, a scale-free representation of the bird's-eye-view captures the long-range interdependence within, due to the universally critical nature of every major language. However hierarchical graphs are known to be impossible to isometrically (preserving the distances) embed in any Euclidean manifold; but possible, within hyperbolic geometry. The graph in this webapp is made to resemble the discretized geogesics of Poincaré disk model of 2D hyperbolic geometry.
 
 
 People interested in ( writing + organising + publishing + visualising ) articles/essays/blogs with diverse interdependent topics might enjoy it. Give a try and play around! Any suggestion or improvement is welcome. 
