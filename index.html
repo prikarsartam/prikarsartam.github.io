@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>renormalized_pritam</title>
+  <script>
+    (function () {
+      const savedTheme = localStorage.getItem('notework-storage');
+      let theme = 'light'; // Default to dark
+      if (savedTheme) {
+        try {
+          const parsed = JSON.parse(savedTheme);
+          if (parsed.state && parsed.state.theme) {
+            theme = parsed.state.theme;
+          }
+        } catch (e) { }
+      }
+      document.body.classList.add(theme + '-theme');
+    })();
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

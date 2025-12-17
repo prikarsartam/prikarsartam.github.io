@@ -1,0 +1,78 @@
+:root {
+  /* Light Theme Defaults */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --bg-hover: #e9ecef;
+  --text-primary: #212529;
+  --text-secondary: #6c757d;
+  --border-color: #dee2e6;
+  /* Light border */
+  --panel-border-color: transparent;
+  /* Seamless panel */
+  --accent-color: #0d6efd;
+  /* Bright blue accent */
+  --card-bg: #ffffff;
+  --card-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace;
+}
+
+body.dark-theme {
+  /* Luxurious Dark Theme */
+  --bg-primary: #0f0f12;
+  /* Deep, rich black-blue */
+  --bg-secondary: #18181b;
+  /* Slightly lighter panel bg */
+  --bg-hover: #27272a;
+  /* Hover state */
+  --text-primary: #f4f4f5;
+  /* Crisp white */
+  --text-secondary: #a1a1aa;
+  /* Muted silver */
+  --border-color: #27272a;
+  /* Subtle border */
+  --panel-border-color: transparent;
+  /* Remove black boundary on panels */
+  --accent-color: #818cf8;
+  /* Bright indigo accent */
+  --card-bg: transparent;
+  /* Transparent card background */
+  --card-shadow: none;
+  /* No shadow for outline style */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  overflow: hidden;
+  /* Prevent body scroll, handle in components */
+  font-size: 6.5px;
+  /* Reduced sizing (10% smaller) */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
