@@ -52,7 +52,7 @@ last_updated: 2025-12-16
 
 ---
 
--><- Gradually putting together some of my notes and writings - still far from being complete. 
+<div style="text-align: center;">Right now you are the youngest you will ever be.</div>
 
 ---
 
@@ -223,8 +223,6 @@ as the boundary across which no geodesic of finite length can exist.
 
 
 
----
-<div style="text-align: center;">Right now you are the youngest you will ever be.</div>
 
 ---
 
@@ -5196,7 +5194,7 @@ l0,-`+(n+144)+`c-2,-159.3,-10,-310.7,-24,-454c-53.3,-528,-210,-949.7,
   padding: 6px 10px 10px 10px;
 
   @media  {
-    padding-bottom: 130px;
+    padding-bottom: 50px;
   }
 `,Jj=Ye.div`
   font-size: 15px;
