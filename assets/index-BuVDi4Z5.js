@@ -231,7 +231,9 @@ as the boundary across which no geodesic of finite length can exist.
 
 --- 
 
-`,Tw=`---
+-><- Gradually putting together some of my notes and writings, still far from being complete.
+
+---`,Tw=`---
 id: 1__basics
 title: About
 level: "1"
@@ -2607,7 +2609,7 @@ All results presented are **mathematically exact**—no approximations or Monte 
 
 ---
 
-## 10. References and Primary Sources
+## 10. References and further reading
 
 [Kopra, J. (2022). "A natural class of cellular automata containing fractional multiplication automata, Rule 30, and others." *Theoretical Computer Science*, 851, 92-110.](https://arxiv.org/pdf/2202.13809.pdf)
 
@@ -2620,10 +2622,7 @@ All results presented are **mathematically exact**—no approximations or Monte 
 [Jorgensen, K. & Schroeder, M.R. (2024). "Fast Simulation of Cellular Automata by Self-Composition." *arXiv preprint 2409.07065*](https://arxiv.org/pdf/2409.07065.pdf)
 
 ---
-
-**Document Status**: Complete mathematical exposition without approximations. All theorems rigorously proved in cited sources. Suitable for graduate-level study of dynamical systems, symbolic dynamics, and computational complexity.
-
-**Last Updated**: December 2025`,Bw=`---
+`,Bw=`---
 id: an_analysis_of_observation
 title: An analysis of observation
 level: "3"
@@ -3279,7 +3278,7 @@ The key insight binding these diverse frameworks is that **finite state structur
 
 ---
 
-### References
+### References and further reading
 
 1. [arXiv:1911.00874](https://arxiv.org/pdf/1911.00874.pdf) - Automata Learning: An Algebraic Approach (Urbat & Schröder, 2020)
 2. [arXiv:2412.09688](https://arxiv.org/pdf/2412.09688.pdf) - Formal Languages and TQFTs with Defects (Boateng & Marcolli, 2024)
@@ -3292,9 +3291,7 @@ The key insight binding these diverse frameworks is that **finite state structur
 9. Genetic Code Automaton Model ([Origins of Genetic Coding](https://pmc.ncbi.nlm.nih.gov/articles/PMC10527755/)) - Wills et al., 2023
 10. Recurrent Neural Networks and Finite Automata ([neural automata](https://binds.cs.umass.edu/papers/1996_Siegelmann_JCompInt.pdf)) - Siegelmann et al., 1996
 
----
-
-*Generated: December 2024 | Technical Scope: Mathematical formalism, complete definitions, pedagogical rigor | Word Count: ~2400 words*`,qw=`---
+---`,qw=`---
 id: classical_information
 title: Classical Information
 level: "3"
