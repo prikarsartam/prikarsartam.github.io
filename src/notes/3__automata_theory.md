@@ -442,7 +442,7 @@ The key insight binding these diverse frameworks is that **finite state structur
 
 ---
 
-### References
+### References and further reading
 
 1. [arXiv:1911.00874](https://arxiv.org/pdf/1911.00874.pdf) - Automata Learning: An Algebraic Approach (Urbat & Schröder, 2020)
 2. [arXiv:2412.09688](https://arxiv.org/pdf/2412.09688.pdf) - Formal Languages and TQFTs with Defects (Boateng & Marcolli, 2024)
@@ -456,5 +456,3 @@ The key insight binding these diverse frameworks is that **finite state structur
 10. Recurrent Neural Networks and Finite Automata ([neural automata](https://binds.cs.umass.edu/papers/1996_Siegelmann_JCompInt.pdf)) - Siegelmann et al., 1996
 
 ---
-
-*Generated: December 2024 | Technical Scope: Mathematical formalism, complete definitions, pedagogical rigor | Word Count: ~2400 words*

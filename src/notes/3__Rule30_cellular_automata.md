@@ -775,7 +775,7 @@ All results presented are **mathematically exact**—no approximations or Monte 
 
 ---
 
-## 10. References and Primary Sources
+## 10. References and further reading
 
 [Kopra, J. (2022). "A natural class of cellular automata containing fractional multiplication automata, Rule 30, and others." *Theoretical Computer Science*, 851, 92-110.](https://arxiv.org/pdf/2202.13809.pdf)
 
@@ -788,7 +788,3 @@ All results presented are **mathematically exact**—no approximations or Monte 
 [Jorgensen, K. & Schroeder, M.R. (2024). "Fast Simulation of Cellular Automata by Self-Composition." *arXiv preprint 2409.07065*](https://arxiv.org/pdf/2409.07065.pdf)
 
 ---
-
-**Document Status**: Complete mathematical exposition without approximations. All theorems rigorously proved in cited sources. Suitable for graduate-level study of dynamical systems, symbolic dynamics, and computational complexity.
-
-**Last Updated**: December 2025

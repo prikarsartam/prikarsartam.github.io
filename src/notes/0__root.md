@@ -223,3 +223,6 @@ as the boundary across which no geodesic of finite length can exist.
 
 --- 
 
+-><- Gradually putting together some of my notes and writings, still far from being complete.
+
+---
