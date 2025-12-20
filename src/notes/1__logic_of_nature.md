@@ -1,5 +1,5 @@
 ---
-id: information_and_causality
+id: logic_of_nature
 title: Logic of Nature
 level: "1"
 color:

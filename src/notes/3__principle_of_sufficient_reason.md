@@ -1,9 +1,9 @@
 ---
 id: principle_of_sufficient_reason
 title: Principle of Sufficient Reason
-level: "2"
+level: "3"
 color:
-parent: civilization
+parent: from_mind_to_matter
 connections:
 last_updated: 2025-10-22
 ---

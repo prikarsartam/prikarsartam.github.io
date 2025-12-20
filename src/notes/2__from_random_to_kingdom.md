@@ -1,7 +1,7 @@
 ---
 id: from_random_to_kingdom
 title: From random to kingdom
-level: "2"
+level: "4"
 color:
 parent: civilization
 connections:

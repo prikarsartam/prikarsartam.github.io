@@ -3,7 +3,7 @@ id: emergence_of_large-scale_harmony
 title: Emergence of large-scale harmony
 level: "2"
 color:
-parent: information_and_causality
+parent: logic_of_nature
 connections:
 last_updated: 2025-10-22
 ---

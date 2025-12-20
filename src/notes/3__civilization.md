@@ -1,9 +1,9 @@
 ---
 id: civilization
 title: Civilization
-level: "1"
+level: "3"
 color:
-parent: root
+parent: emergence_of_large-scale_harmony
 connections:
 last_updated: 2025-12-14
 ---
