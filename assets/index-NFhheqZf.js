@@ -211,6 +211,10 @@ as the boundary across which no geodesic of finite length can exist.
 
 
 
+- [Features contribution in Wolfram community.](https://community.wolfram.com/groups/-/m/t/3342258)
+
+- [Article in Quantum Zeitgeist on the same.](https://quantumzeitgeist.com/quantum-criticality-revealed-metric-response-relative-entropy-diverges-critical/)
+
 
 ---
 
