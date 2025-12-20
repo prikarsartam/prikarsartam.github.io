@@ -10,7 +10,7 @@ last_updated: 2025-10-22
 
 ## Organizing Principle of Mutiscale Physics
 
-Renormalization stands as one of the most universal and widest concepts in modern physics, extending far beyond its origins in quantum field theory. [Fisher, M.E., Rev. Mod. Phys. 70, 653 (1998)](https://link.aps.org/doi/10.1103/RevModPhys.70.653) describes renormalization group (RG) ideas as fundamental to understanding how effective behavior of a system depends on observation scale. At its core, renormalization captures a simple yet powerful truth: **the laws governing physical systems change—predictably and systematically—as one views them at different scales**.
+Renormalization stands as one of the most universal and widest concepts in modern physics, extending far beyond its origins in quantum field theory. [Fisher, M.E., Rev. Mod. Phys.(1998)](https://link.aps.org/doi/10.1103/RevModPhys.70.653) describes renormalization group (RG) ideas as fundamental to understanding how effective behavior of a system depends on observation scale. At its core, renormalization captures a simple yet powerful truth: **the laws governing physical systems change—predictably and systematically—as one views them at different scales**.
 
 ## Foundational Principles
 
