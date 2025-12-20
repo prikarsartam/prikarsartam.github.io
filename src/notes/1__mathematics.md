@@ -25,7 +25,7 @@ Critically, Frege showed that logic itself provides the foundation for mathemati
 
 #### Russell's Paradox and Type Theory
 
-[Bertrand Russell discovered Russell's paradox](https://www.britannica.com/topic/Principia-Mathematica) in 1901: consider the class $R$ of all classes not containing themselves. Then $R \in R$ if and only if $R \notin R$—a contradiction. This demolition of unrestricted comprehension prompted Russell and Whitehead's **theory of types** in [*Principia Mathematica*](https://plato.stanford.edu/archives/win2006/entries/principia-mathematica/) (1910–1913), the most comprehensive attempt to ground all mathematics in logic.
+[Bertrand Russell discovered Russell's paradox](https://www.britannica.com/topic/Principia-Mathematica) in 1901: consider the class $R$ of all classes not containing themselves. Then $R \in R$ if and only if $R \notin R$—a contradiction. This demolition of unrestricted comprehension prompted Russell and Whitehead's **theory of types** in [*Principia Mathematica*](https://plato.stanford.edu/archives/win2006/entries/principia-mathematica/) (1910–1913), the most overarching attempt to ground all mathematics in logic.
 
 The ramified type hierarchy restricts formula formation: entities of type $\tau$ can contain only entities of lower type $\tau' < \tau$. This syntactic constraint eliminates paradoxes but at tremendous cost—the **axiom of reducibility** had to be smuggled in, essentially collapsing the hierarchy and suggesting the program's theoretical weakness.
 
@@ -61,7 +61,7 @@ Hilbert believed that by using $\epsilon$-substitution methods and reduction pro
 
 The proof employs a diagonal argument: the Gödel sentence self-referentially asserts its own unprovability—$G_F$ roughly states "$G_F$ is not provable in $F$." This establishes that **completeness and consistency are incompatible** for non-trivial formal systems.
 
-The mathematical content is profound:
+The mathematical content is far-reaching, encompassing a wide umbrella of conceptual foundation of mathematics and natural science :
 
 $\text{If } F \text{ is recursively axiomatizable and consistent, then } F \not\vdash G_F \text{ and } F \not\vdash \neg G_F$
 
@@ -120,7 +120,7 @@ $\Gamma \vdash \phi \iff \Gamma \models \phi$
 
 [This fundamental result](https://plato.stanford.edu/entries/logic-higher-order/) states: if a first-order theory has an infinite model, it has a countable model. More strikingly, it has models of every infinite cardinality.
 
-This reveals a profound limitation: **first-order theories cannot distinguish between models of different infinite cardinalities.** The natural numbers can be axiomatized in first-order logic, yet the theory has non-standard models with more elements than standard $\mathbb{N}$—models where different "integers" satisfy identical first-order properties.
+This reveals a general limitation: **first-order theories cannot distinguish between models of different infinite cardinalities.** The natural numbers can be axiomatized in first-order logic, yet the theory has non-standard models with more elements than standard $\mathbb{N}$—models where different "integers" satisfy identical first-order properties.
 
 $\text{If } \Gamma \models \phi \text{ in some model, then } \Gamma \models \phi \text{ in a countable model}$
 

@@ -299,9 +299,8 @@ Then the center column density deviation from 0.5 is strongly correlated (Pearso
 
 # Wolfram's Cellular Automaton Rule 30: Mathematical Foundations and Rigorous Properties
 
-## Executive Summary
 
-This document provides a comprehensive mathematical and formal exposition of **Wolfram's Rule 30 cellular automaton**, synthesizing rigorous theoretical frameworks developed through symbolic dynamics, ergodic theory, and computational complexity. Rule 30 remains a paradigmatic example of how elementary deterministic systems generate seemingly random, aperiodic behavior—a central puzzle in understanding complexity from simplicity. We establish exact mathematical characterizations of its asymptotic properties without approximation or simulation, encode its dynamics through De Bruijn graphs and transfer matrices, and present the fundamental theorems governing column aperiodicity and rapid left-expansivity.
+Rule 30 remains a paradigmatic example of how elementary deterministic systems generate seemingly random, aperiodic behavior—a central puzzle in understanding complexity from simplicity. We establish exact mathematical characterizations of its asymptotic properties without approximation or simulation, encode its dynamics through De Bruijn graphs and transfer matrices, and present the fundamental theorems governing column aperiodicity and rapid left-expansivity.
 
 ---
 

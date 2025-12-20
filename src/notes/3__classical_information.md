@@ -65,7 +65,7 @@ DNA encodes classical information through sequences of four nucleotides (A, C, G
 
 ### Thermodynamics and Physical Limits: Landauer's Principle
 
-A profound bridge connects classical information to thermodynamics: **Landauer's principle** states that erasing one bit of information necessarily dissipates at least $k_B T \ln(2)$ joules of energy as heat into the environment, where $k_B$ is Boltzmann's constant and $T$ is temperature. [Information erasure | Phys. Rev. A](https://link.aps.org/doi/10.1103/PhysRevA.61.062314)
+A bridge connecting classical information to thermodynamics: **Landauer's principle** states that erasing one bit of information necessarily dissipates at least $k_B T \ln(2)$ joules of energy as heat into the environment, where $k_B$ is Boltzmann's constant and $T$ is temperature. [Information erasure | Phys. Rev. A](https://link.aps.org/doi/10.1103/PhysRevA.61.062314)
 
 This principle implies that information processing is fundamentally costly in energy. Any irreversible logical operation—deletion, compression into a predetermined state—must shed entropy to the surroundings. Conversely, reversible computations (bijective mappings) can theoretically proceed with arbitrarily low energy dissipation. [Landauer Principle and Thermodynamics of Computation](https://arxiv.org/html/2506.10876v2)
 

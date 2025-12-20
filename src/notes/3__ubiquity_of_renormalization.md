@@ -7,11 +7,10 @@ parent: emergence_of_large-scale_harmony
 connections:
 last_updated: 2025-10-22
 ---
-# The Ubiquity of Renormalization: Fundamental Principles and Their Manifestations
 
-## Overview: A Universal Framework for Multiscale Physics
+## Organizing Principle of Mutiscale Physics
 
-Renormalization stands as one of the most profound and broadly applicable concepts in modern physics, extending far beyond its origins in quantum field theory. [Fisher, M.E., Rev. Mod. Phys. 70, 653 (1998)](https://link.aps.org/doi/10.1103/RevModPhys.70.653) describes renormalization group (RG) ideas as fundamental to understanding how effective behavior of a system depends on observation scale. At its core, renormalization captures a simple yet powerful truth: **the laws governing physical systems change—predictably and systematically—as one views them at different scales**.
+Renormalization stands as one of the most universal and widest concepts in modern physics, extending far beyond its origins in quantum field theory. [Fisher, M.E., Rev. Mod. Phys. 70, 653 (1998)](https://link.aps.org/doi/10.1103/RevModPhys.70.653) describes renormalization group (RG) ideas as fundamental to understanding how effective behavior of a system depends on observation scale. At its core, renormalization captures a simple yet powerful truth: **the laws governing physical systems change—predictably and systematically—as one views them at different scales**.
 
 ## Foundational Principles
 
@@ -114,7 +113,7 @@ Perception itself is renormalization: the brain integrates sensory details into 
 > [!QUOTE] The Universality of Renormalization
 > "The renormalization group allows to do a rigorous mathematical analysis of gapless systems, e.g. a mathematical characterization of Fermi liquids" and "has become the method of choice to determine phase diagrams and calculate order parameters of correlated-fermion materials... and analyzing topological phases of correlated fermion systems." — Salmhofer, M., "Renormalization Theory in Condensed Matter Physics"
 
-## Conclusion: A Unifying Principle
+## A Unifying Principle
 
 Renormalization emerges not as a technical trick for removing infinities but as a **fundamental principle of nature**: at any scale of observation, physics is described by effective theories with scale-dependent parameters flowing under renormalization group equations. Universality classes unite disparate phenomena under common fixed points. Information is hierarchically compressed as one coarse-grains toward infrared scales.
 

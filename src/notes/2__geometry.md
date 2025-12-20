@@ -67,7 +67,7 @@ The identification of physical gauge fields with connection 1-forms is not metap
 
 In non-Abelian gauge theories like quantum chromodynamics (QCD) with gauge group $SU(3)$, the algebra-valued connection encodes the self-interaction of color charge carriers. The Yang–Mills action 
 $$S = -\frac{1}{4g^2}\int d^4 x \, \mathrm{tr}(F_{\mu\nu}F^{\mu\nu})$$
-is manifestly gauge-invariant: the trace ensures invariance under conjugation $A \to gAg^{-1}$. The non-linear term $F = dA + A \wedge A$ means the gauge field sources itself—a profound departure from Maxwell's linear theory. [Quantum Yang-Mills Theory - Jaffe](https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf)
+is manifestly gauge-invariant: the trace ensures invariance under conjugation $A \to gAg^{-1}$. The non-linear term $F = dA + A \wedge A$ means the gauge field sources itself—a departure from Maxwell's linear theory. [Quantum Yang-Mills Theory - Jaffe](https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf)
 
 In diffeomorphism-invariant theories such as general relativity and topological quantum field theories, the analogous principle holds: consistency with diffeomorphism gauge invariance constrains the allowed Lagrangian densities, and the conservation laws for energy, momentum, and angular momentum emerge from this symmetry. [Exactly soluble diffeomorphism invariant theories - Horowitz, Communications in Mathematical Physics](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-125/issue-3/Exactly-soluble-diffeomorphism-inva...)
 

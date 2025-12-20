@@ -10,7 +10,7 @@ last_updated: 2025-10-22
 ## From Theorema Egregium to black holes and topological quantum phases 
 
 
-The **Theorema Egregium** (Remarkable Theorem), discovered by Carl Friedrich Gauss in 1827, establishes that the [Gaussian curvature of a surface is an intrinsic quantity](https://en.wikipedia.org/wiki/Theorema_Egregium), depending only on measurements within the surface—distances and angles—without reference to how the surface is embedded in three-dimensional space. Formally, the Gaussian curvature $K$ of a surface can be computed entirely from the coefficients $E$, $F$, $G$ of the first fundamental form (the intrinsic metric). This is profound: [a geometer living on a two-dimensional surface could determine the curvature without ever leaving that surface](https://thatsmaths.com/2018/12/27/gaussian-curvature-the-theorema-egregium/).
+The **Theorema Egregium** (Remarkable Theorem), discovered by Carl Friedrich Gauss in 1827, establishes that the [Gaussian curvature of a surface is an intrinsic quantity](https://en.wikipedia.org/wiki/Theorema_Egregium), depending only on measurements within the surface—distances and angles—without reference to how the surface is embedded in three-dimensional space. Formally, the Gaussian curvature $K$ of a surface can be computed entirely from the coefficients $E$, $F$, $G$ of the first fundamental form (the intrinsic metric). It is very generic idea that [a geometer living on a two-dimensional surface could determine the curvature without ever leaving that surface](https://thatsmaths.com/2018/12/27/gaussian-curvature-the-theorema-egregium/).
 
 > [!IMPORTANT] The Theorema Egregium reveals a deep distinction between intrinsic and extrinsic properties.  
 > Curvature is intrinsic; the way a surface sits in ambient space is extrinsic. This separability is fundamental to all of differential geometry and physics.
@@ -23,7 +23,7 @@ This formula states that [the integral of Gaussian curvature around a closed sur
 
 ## Riemannian Geometry and Einstein's Field Equations
 
-The Theorema Egregium generalizes profoundly to [Riemannian manifolds of arbitrary dimension](https://en.wikipedia.org/wiki/Riemannian_manifold), where [a Riemannian metric is a smoothly varying inner product on tangent spaces of a smooth manifold](https://www.ime.usp.br/~gorodski/teaching/mat5771/ch1.pdf). On a Riemannian manifold $(M, g)$, the full curvature structure is encoded in the **Riemann curvature tensor** $R_{\mu\nu\rho\sigma}$, which measures how the manifold deviates from flatness. In general relativity, [the metric tensor $g_{\mu\nu}$ and the Ricci curvature tensor determine all geometric properties of spacetime](https://en.wikipedia.org/wiki/Einstein_field_equations). The Einstein field equations relate spacetime curvature directly to energy and momentum:
+The Theorema Egregium generalizes to [Riemannian manifolds of arbitrary dimension](https://en.wikipedia.org/wiki/Riemannian_manifold), where [a Riemannian metric is a smoothly varying inner product on tangent spaces of a smooth manifold](https://www.ime.usp.br/~gorodski/teaching/mat5771/ch1.pdf). On a Riemannian manifold $(M, g)$, the full curvature structure is encoded in the **Riemann curvature tensor** $R_{\mu\nu\rho\sigma}$, which measures how the manifold deviates from flatness. In general relativity, [the metric tensor $g_{\mu\nu}$ and the Ricci curvature tensor determine all geometric properties of spacetime](https://en.wikipedia.org/wiki/Einstein_field_equations). The Einstein field equations relate spacetime curvature directly to energy and momentum:
 
 $$G_{\mu\nu} = R_{\mu\nu} - \frac{1}{2}R g_{\mu\nu} = 8\pi T_{\mu\nu}$$
 
@@ -36,7 +36,7 @@ where $G_{\mu\nu}$ is the Einstein tensor, $R_{\mu\nu}$ the Ricci tensor, $R$ th
 
 The Schwarzschild solution, the simplest black hole metric, demonstrates this principle concretely. [In spacetime around a black hole, the Riemann curvature tensor fully describes the geometry, encoding how tidal forces arise and how geodesics (paths of free-falling objects) evolve](https://pmc.ncbi.nlm.nih.gov/articles/PMC5253844/). The event horizon itself is a geometric structure—a hypersurface defined by [null geodesics, the light rays barely unable to escape](https://en.wikipedia.org/wiki/Holographic_principle)—where spacetime geometry becomes singular in classical general relativity.
 
-[The curvature invariants of the Riemann tensor are crucial in general relativity because they provide manifestly coordinate-invariant characterizations of spacetime properties, including curvature singularities](https://iopscience.iop.org/article/10.1088/1361-6382/ac750a). Remarkably, the black hole event horizon exhibits a profound thermodynamic structure: [the area of the event horizon is proportional to the black hole's entropy](https://en.wikipedia.org/wiki/Black_hole_thermodynamics), expressed by the **Bekenstein-Hawking formula**:
+[The curvature invariants of the Riemann tensor are crucial in general relativity because they provide manifestly coordinate-invariant characterizations of spacetime properties, including curvature singularities](https://iopscience.iop.org/article/10.1088/1361-6382/ac750a). Remarkably, the black hole event horizon exhibits a deep thermodynamic structure: [the area of the event horizon is proportional to the black hole's entropy](https://en.wikipedia.org/wiki/Black_hole_thermodynamics), expressed by the **Bekenstein-Hawking formula**:
 
 $$S_{\text{BH}} = \frac{A}{4}$$
 
@@ -64,7 +64,7 @@ The **quantum anomalous Hall (QAH) effect** exemplifies this principle: [in Cher
 
 ## Unifying Thread: Geometry, Topology, and Information
 
-The progression from Theorema Egregium to topological quantum phases reveals a profound unification:
+The progression from Theorema Egregium to topological quantum phases reveals a unification:
 
 1. **Gauss's insight** (1827): Intrinsic curvature—measured by distances and angles alone—determines the topology via Gauss-Bonnet.
 

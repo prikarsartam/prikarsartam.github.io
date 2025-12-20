@@ -7,11 +7,9 @@ parent: fundamental_principles_of_physics
 connections:
 last_updated: 2025-10-22
 ---
-# Quantum Information: Foundations, Mathematics, and Applications
 
-## Fundamental Principles
 
-Quantum information emerges from a profound reorientation: information itself becomes physical and fundamentally constrained. Unlike classical information, which is substrate-independent, quantum information is inseparable from the quantum state it inhabits. The minimal unit is the **qubit**, a two-dimensional quantum system whose state exists in superposition until measurement.
+
 
 > [!IMPORTANT] Core Paradigm Shift
 > Quantum information is not merely encoded in quantum states—it **is** the quantum state. Every quantum system carries a finite, bounded amount of information, and this constraint generates the defining phenomena of quantum mechanics: complementarity, entanglement, and irreversibility. Motivated by John Wheeler's "it from bit" vision, modern quantum information theory treats the finite information content of a system as foundational [Information-Theoretic Foundations of Quantum Theory](http://www.iqoqi-vienna.at/research/brukner-group/information-theoretic-foundations-of-quantum-theory).

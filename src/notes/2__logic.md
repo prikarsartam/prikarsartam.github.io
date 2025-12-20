@@ -20,7 +20,7 @@ At its foundation lies the **Principle of Non-Contradiction**: a proposition can
 
 **Socrates** pioneered the *elenchus*—[dialectical questioning that exposes contradictions in interlocutor's beliefs](https://www.gutenberg.org/files/1171/1171-h/1171-h.htm), revealing deeper principles of virtue and knowledge through introspection and self-examination.
 
-**Plato** grounded logic in his theory of Forms: abstract, eternal, universal entities that define the subjects of predication. For Plato, [the object of knowledge is the Form itself](https://www.gutenberg.org/files/1658/1658-h/1658-h.htm)—that which remains stable and intelligible across particular instances. This foundational role of universals shaped subsequent logic profoundly.
+**Plato** grounded logic in his theory of Forms: abstract, eternal, universal entities that define the subjects of predication. For Plato, [the object of knowledge is the Form itself](https://www.gutenberg.org/files/1658/1658-h/1658-h.htm)—that which remains stable and intelligible across particular instances. This foundational role of universals has shaped subsequent developments of logic.
 
 **Aristotle** systematized logic into **syllogistic form**—the deduction with two premises and a conclusion, where each [categorical proposition relates a predicate to a subject with either universal or particular scope](https://plato.stanford.edu/entries/aristotle-logic/). His invention of the **middle term** as the connecting element between premises yielded the three *figures* of the syllogism, with 256 possible premise combinations of which only 24 are valid. This represents the first complete formal system of deductive logic and dominated Western logic for over two millennia.
 
@@ -40,7 +40,7 @@ Crucially, Aristotle distinguished **demonstration** (*apodeixis*)—deduction t
 > [!WARNING] The Limits of Logicism
 > Russell's Paradox revealed a fundamental tension: if logic is to be foundational for mathematics, it cannot permit self-referential constructions. Yet preventing them requires imposing artificial restrictions (type hierarchies) that themselves demand justification.
 
-**Wittgenstein** and the Vienna Circle reinterpreted Frege's logical apparatus. In the *Tractatus Logico-Philosophicus* (1921), Wittgenstein advanced the **Picture Theory of Language**: propositions are logical pictures of atomic facts, where [the logical form of the proposition mirrors the logical form of reality](https://wittgensteinproject.org/w/index.php/Tractatus_Logico-Philosophicus_(English)). Only propositions with clear empirical content convey truth. This picture theory, combined with the verification principle adopted by the Vienna Circle, defined meaningful statements as either analytically true (by logical form) or empirically verifiable. The consequence was profound: metaphysics, ethics, and aesthetics—lacking verification procedures—became strictly meaningless utterances.
+**Wittgenstein** and the Vienna Circle reinterpreted Frege's logical apparatus. In the *Tractatus Logico-Philosophicus* (1921), Wittgenstein advanced the **Picture Theory of Language**: propositions are logical pictures of atomic facts, where [the logical form of the proposition mirrors the logical form of reality](https://wittgensteinproject.org/w/index.php/Tractatus_Logico-Philosophicus_(English)). Only propositions with clear empirical content convey truth. This picture theory, combined with the verification principle adopted by the Vienna Circle, defined meaningful statements as either analytically true (by logical form) or empirically verifiable. The consequence was overarching: metaphysics, ethics, and aesthetics—lacking verification procedures—became strictly meaningless utterances.
 
 ## The Computational and Undecidability Revolution
 
@@ -68,7 +68,7 @@ This framework resolves Kant's central question: how can knowledge of the necess
 
 ## Intentionality and the Limits of Formalism
 
-**John Searle's** [Chinese Room argument (1980) posed a profound challenge to the computational theory of mind.](https://plato.stanford.edu/entries/chinese-room/) An agent in a room manipulates Chinese symbols according to formal rules without understanding Chinese. Despite perfect behavioral simulation of comprehension, the agent possesses no *intrinsic intentionality*—genuine mental content—only *derived* intentionality (meaning assigned by external observers). This reveals a boundary: syntax alone (formal symbol manipulation) cannot generate semantics (meaningful content). Computation, being purely formal, cannot suffice for understanding or consciousness.
+**John Searle's** [Chinese Room argument (1980) posed a univetsal challenge to the computational theory of mind.](https://plato.stanford.edu/entries/chinese-room/) An agent in a room manipulates Chinese symbols according to formal rules without understanding Chinese. Despite perfect behavioral simulation of comprehension, the agent possesses no *intrinsic intentionality*—genuine mental content—only *derived* intentionality (meaning assigned by external observers). This reveals a boundary: syntax alone (formal symbol manipulation) cannot generate semantics (meaningful content). Computation, being purely formal, cannot suffice for understanding or consciousness.
 
 > [!QUOTE] Searle's Central Insight
 > "Instantiating a program could not be constitutive of intentionality, because it would be possible for an agent to instantiate the program and still not have the right kind of intentionality"
@@ -83,7 +83,7 @@ However, this does not invalidate the Church-Turing thesis *proper*: it concerns
 
 ## Synthesis: Logic's Scope and Limits
 
-Logic, from Aristotle's syllogisms through Frege's quantifiers to Turing's machines, has progressively clarified the structure of valid inference. Yet modern logic simultaneously reveals profound limits:
+Logic, from Aristotle's syllogisms through Frege's quantifiers to Turing's machines, has progressively clarified the structure of valid inference. Yet modern logic simultaneously reveals its intrinsic limitations:
 
 1. **Incompleteness**: No finite axiom system captures all truths in any sufficiently expressive domain (Gödel).
 2. **Undecidability**: No algorithm solves all instances of even decidable problems (Church-Turing).

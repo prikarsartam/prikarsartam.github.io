@@ -50,7 +50,7 @@ where $\eta$ is the anomalous dimension exponent. [Introduction to Conformal Fie
 
 ### Equilibrium Phase Transitions
 
-The **ferromagnetic-paramagnetic transition** in magnets and the **liquid-gas critical point** exhibit identical critical exponents despite different physics: $\beta \approx 0.325$, $\gamma \approx 1.24$ in 3D. [Universality Explained - Philosophy of Science Archive](https://philsci-archive.pitt.edu/12044/1/Universality_Explained.pdf) This universality revealed a profound unity: systems with order parameters of the same symmetry class must obey the same scaling laws.
+The **ferromagnetic-paramagnetic transition** in magnets and the **liquid-gas critical point** exhibit identical critical exponents despite different physics: $\beta \approx 0.325$, $\gamma \approx 1.24$ in 3D. [Universality Explained - Philosophy of Science Archive](https://philsci-archive.pitt.edu/12044/1/Universality_Explained.pdf) This universality revealed a unity that is independent of any systems' microscopic details : systems with order parameters of the same symmetry class must obey the same scaling laws.
 
 ### Biological and Neurological Systems
 

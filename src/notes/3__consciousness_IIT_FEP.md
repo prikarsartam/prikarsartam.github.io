@@ -7,11 +7,9 @@ parent: from_matter_to_mind
 connections:
 last_updated: 2025-10-22
 ---
- # Mathematical Criteria and Measures of Consciousness: IIT and Free-Energy Principle
 
-## Executive Summary
 
-This analysis presents two dominant theoretical frameworks for quantifying consciousness: **Integrated Information Theory** (IIT) and the **Free-Energy Principle** (FEP). Both frameworks provide mathematical formulations bridging phenomenology, neurobiology, and physics, though they emphasize different foundational aspects and possess distinct scopes and limitations.
+This note tries to presents two dominant theoretical frameworks for quantifying consciousness: **Integrated Information Theory** (IIT) and the **Free-Energy Principle** (FEP). Both frameworks provide mathematical formulations bridging phenomenology, neurobiology, and physics, though they emphasize different foundational aspects and possess distinct scopes and limitations to elaborate on the role of agency and autonomy in cognitive functions.
 
 ---
 
@@ -260,7 +258,7 @@ Message passing between levels:
 
 ---
 
-## VII. Mathematical Definitions Summary
+## VII. Elementary Mathematical Definitions 
 
 | Term | Formal Definition | Sufficiency for Consciousness |
 |------|-------------------|-------------------------------|
