@@ -3392,14 +3392,15 @@ Shannon's 1948 paper "A Mathematical Theory of Communication" created informatio
 
 Classical information stands as the quantified expression of distinguishability, replicability, and measurement without disturbance. Rooted in Shannon entropy and constrained by channel capacity, mutual information, and Landauer's principle, it forms a unified framework spanning digital computation, biological genetics, and thermodynamics. Its ubiquity—from silicon circuits to DNA helices to astronomical data transmission—reflects the universality of information's role in storing, processing, and communicating structure in a probabilistic universe.`,Hw=`---
 id: classicality_and_the_principle_of_sufficient_reason
-title: Classicality and hte principle of suffficient reason
+title: Classicality and the principle of suffficient reason
 level: "3"
 color:
 parent: fundamental_principles_of_physics
 connections:
 last_updated: 2025-10-22
 ---
- prolonged discussion about what happened today needs more sittings for it was extensive over many degrees of freedom. Assuming the core discourse to be coherent enough, the substance of today’s constrained-association is followed down beneath.
+
+
 
 The distinction between phenomenon and noumenon as Kant advocated carries the essence that, inherently within the phenomenal episteme the only possibility is to have some representation of the noumenon, but the thing as it is, is fundamentally vacuous within our perceptual universe. It requires rather many presuppositions to establish such structure of cognition from the pov of natural externality but that is conceptually establishable without any a-priori suppositions from the pov of transcended episteme (of the subject), i.e. the conscious apparatuses, you and me. Such apriori suppositions can be emergent nature of the subject itself, but the idiosyncrasy of natural science fails to capture the essence of it, to even its basic properties. So the transcendence from absolute transcendental idealism is necessary to capture the co-existence of both idea and matter (this statement is necessary to further establish the idea of noumenon behind the phenomenon as opposed to the pure idealisation of noumenon as the thing as it exists irrespective of the subject). They aren’t mutually exclusive but jointly exhaustive, analogical (maybe to a deeper sense even) to how the principle of noncontradiction and the principle of excluded middle is related.
 
@@ -4680,7 +4681,7 @@ id: ubiquity_of_renormalization
 title: Ubiquity of Renormalization
 level: "3"
 color:
-parent: fundamental_principles_of_physics
+parent: emergence_of_large-scale_harmony
 connections:
 last_updated: 2025-10-22
 ---
