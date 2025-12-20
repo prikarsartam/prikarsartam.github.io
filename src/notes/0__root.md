@@ -14,7 +14,7 @@ last_updated: 2025-12-16
 
 
 
->[!HINT] "Objects are simple"
+>[!TIP] "Objects are simple"
 > - [Tractatus Logico-Philosophicus, Ludwig Wittgenstein](https://wittgensteinproject.org/w/index.php/Tractatus_Logico-Philosophicus_(English))
 
 
