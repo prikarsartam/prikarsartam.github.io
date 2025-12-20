@@ -3,7 +3,7 @@ id: ubiquity_of_renormalization
 title: Ubiquity of Renormalization
 level: "3"
 color:
-parent: fundamental_principles_of_physics
+parent: emergence_of_large-scale_harmony
 connections:
 last_updated: 2025-10-22
 ---
