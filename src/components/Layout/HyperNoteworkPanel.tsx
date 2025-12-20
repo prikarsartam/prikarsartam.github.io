@@ -161,7 +161,7 @@ export const HyperNoteworkPanel: React.FC = () => {
         </ThemeToggle>
       </Header>
       <ScrollArea>
-        {[0, 1, 2, 3].map(level => (
+        {[0, 1, 2, 3, 4].map(level => (
           <LevelGroup key={level}>
             <LevelHeader>Level {level}</LevelHeader>
             <Grid>
