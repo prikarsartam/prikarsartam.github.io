@@ -1,9 +1,9 @@
 ---
 id: from_random_to_kingdom
 title: From random to kingdom
-level: "4"
+level: "3"
 color:
-parent: civilization
+parent: emergence_of_large-scale_harmony
 connections:
 last_updated: 2025-10-22
 ---
