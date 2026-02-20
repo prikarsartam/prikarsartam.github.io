@@ -154,7 +154,7 @@ export const HyperNoteworkPanel: React.FC = () => {
       <Header>
         <TitleContainer>
           {/* <Logo src="/logo.svg" alt="Logo" /> */}
-          <Title>hypernotework</Title>
+          <Title>hyperbolic notework</Title>
         </TitleContainer>
         <ThemeToggle onClick={toggleTheme} title={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}>
           {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
