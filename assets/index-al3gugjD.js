@@ -38,7 +38,7 @@ last_updated: 2025-12-16
 
 
 
-> [!NOTE] Aspiring theoretical physicist, with interest and experience in :
+> [!NOTE] Aspiring theoretician of complex systems, with interest and experience in :
 > - Information theory,
 > - Quantum information, 
 > - Theoretical many-body quantum physics, 
