@@ -441,7 +441,7 @@ The key insight binding these diverse frameworks is that **finite state structur
 
 ---
 
-### References and further reading
+### References
 
 1. [arXiv:1911.00874](https://arxiv.org/pdf/1911.00874.pdf) - Automata Learning: An Algebraic Approach (Urbat & Schröder, 2020)
 2. [arXiv:2412.09688](https://arxiv.org/pdf/2412.09688.pdf) - Formal Languages and TQFTs with Defects (Boateng & Marcolli, 2024)

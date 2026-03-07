@@ -110,5 +110,3 @@ Quantum information permeates modern physics and engineering:
 > Quantum effects dominate when: (1) superposition and entanglement are preserved (coherence), (2) quantum resources (qubits, measurements) are limited, and (3) classical simulation is intractable (exponential Hilbert space dimension). These conditions define where quantum information processing transcends classical bounds and why quantum technologies are fundamentally distinct, not merely faster variants of classical computing.
 
 ---
-
-**Key References:** The Theory of Quantum Information [cs.uwaterloo.ca], Introduction to quantum information theory [arxiv.org], Foundations of Quantum Information for Physical Chemistry [pubs.acs.org], and Quantum Computing for Programmers [cambridge.org] provide rigorous mathematical foundations, while emerging applications in quantum cryptography, error correction, and simulation demonstrate the field's explosive growth and practical urgency.

@@ -243,19 +243,4 @@ The nature of logic encompasses hierarchical layers: **elementary laws** (non-co
 
 Logic's deepest insight is reflexive: **the limits of formal systems reveal that understanding transcends any single formalization.** Every logic, however powerful, necessarily has boundaries—boundaries inscribed into its very structure by incompleteness and undecidability. This suggests that reason itself—the capacity to recognize truth beyond what formal systems can prove—constitutes an essential human faculty irreducible to mechanizable computation.
 
-***
-
-## Further reading :  
-
-- [Aristotle's Logic](https://plato.stanford.edu/entries/aristotle-logic/): Foundational categorical logic establishing validity through form
-- [Gödel's Incompleteness Theorems](https://plato.stanford.edu/entries/goedel-incompleteness/): Mathematical proof that formal systems cannot be both complete and consistent
-- [The Church-Turing Thesis](https://plato.stanford.edu/entries/church-turing/): Equivalence of intuitive computability and Turing machine computability
-- [Tarski's Truth Definitions](https://plato.stanford.edu/entries/tarski-truth/): Semantic conception of truth through object/metalanguage hierarchy
-- [Hilbert's Program](https://seop.illc.uva.nl/entries/hilbert-program/): Foundationalist attempt to ground mathematics in finitary consistency proofs
-- [Intuitionism in Mathematics](https://iep.utm.edu/intuitionism-math/): Constructivist alternative rejecting law of excluded middle
-- [Computational Theory of Mind](https://iep.utm.edu/computational-theory-of-mind/): Symbol manipulation account of cognition
-- [Principia Mathematica](https://plato.stanford.edu/archives/win2006/entries/principia-mathematica/): Russell-Whitehead's type-theoretic logicism
-- [Modal Logic](https://en.wikipedia.org/wiki/Modal_logic): Necessity and possibility through possible worlds semantics
-- [Second-Order Logic](https://en.wikipedia.org/wiki/Second-order_logic): Quantification over properties with loss of completeness
-
 ---

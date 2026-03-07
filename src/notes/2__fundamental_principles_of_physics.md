@@ -204,7 +204,7 @@ The renormalization group provides the framework explaining why seemingly differ
 
 ---
 
-**Key References:**
+**References:**
 
 - [Landau, L. D., & Lifshitz, E. M. _Statistical Physics_ (1980): Foundational statistical mechanics establishing ensemble approach][archive](https://archive.org/download/ost-physics-landaulifshitz-statisticalphysics/LandauLifshitz-StatisticalPhysics_text.pdf)​
     
