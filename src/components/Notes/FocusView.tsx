@@ -8,8 +8,8 @@ import rehypeExternalLinks from 'rehype-external-links';
 import { X } from 'lucide-react';
 import { useStore } from '../../store/useStore';
 import type { Note } from '../../services/storage';
+import { Helmet } from 'react-helmet-async';
 
-// Modular Imports
 import {
   remarkCallouts,
   getCalloutColor,
@@ -38,8 +38,6 @@ interface FocusViewProps {
 
 const localImages = import.meta.glob('../../notes/images/*', { as: 'url', eager: true });
 
-
-
 export const FocusView: React.FC<FocusViewProps> = ({ note, onClose }) => {
   const { setFocusedNoteId } = useStore();
 
@@ -53,82 +51,97 @@ export const FocusView: React.FC<FocusViewProps> = ({ note, onClose }) => {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [setFocusedNoteId]);
 
+  const plainDescription = note.content
+    .replace(/[#*`>\[\]!_~]/g, '')
+    .replace(/<[^>]+>/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 160);
+
   return (
-    <Container
-      borderColor={note.color}
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-    >
-      <Header>
-        <Title>{note.title}</Title>
-        <CloseButton onClick={onClose} title="Close (Esc)">
-          <X size={24} />
-        </CloseButton>
-      </Header>
-      <ScrollArea>
-        <MarkdownContent>
-          <ReactMarkdown
-            remarkPlugins={[remarkMath, remarkGfm, remarkCallouts]}
-            rehypePlugins={[rehypeRaw, rehypeKatex, rehypeExternalLinks]}
-            components={{
-              a: ({ node, ...props }) => <a {...props} target="_blank" rel="noopener noreferrer" />,
-              p: ({ children, ...props }) => {
-                const childrenArray = React.Children.toArray(children);
-                const firstChild = childrenArray[0];
+    <>
+      <Helmet>
+        <title>{note.title} — Pritam Sarkar</title>
+        <meta name="description" content={plainDescription} />
+        <meta property="og:title" content={`${note.title} — Pritam Sarkar`} />
+        <meta property="og:description" content={plainDescription} />
+      </Helmet>
+      <Container
+        borderColor={note.color}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+      >
+        <Header>
+          <Title>{note.title}</Title>
+          <CloseButton onClick={onClose} title="Close (Esc)">
+            <X size={24} />
+          </CloseButton>
+        </Header>
+        <ScrollArea>
+          <MarkdownContent>
+            <ReactMarkdown
+              remarkPlugins={[remarkMath, remarkGfm, remarkCallouts]}
+              rehypePlugins={[rehypeRaw, rehypeKatex, rehypeExternalLinks]}
+              components={{
+                a: ({ node, ...props }) => <a {...props} target="_blank" rel="noopener noreferrer" />,
+                p: ({ children, ...props }) => {
+                  const childrenArray = React.Children.toArray(children);
+                  const firstChild = childrenArray[0];
 
-                if (typeof firstChild === 'string') {
-                  const alignment = getAlignment(firstChild);
-                  if (alignment !== 'left') {
-                    const formmatedText = stripAlignmentMarker(firstChild);
-                    const newChildren = [formmatedText, ...childrenArray.slice(1)];
-                    return <p style={{ textAlign: alignment, margin: '1em 0' }} {...props}>{newChildren}</p>;
+                  if (typeof firstChild === 'string') {
+                    const alignment = getAlignment(firstChild);
+                    if (alignment !== 'left') {
+                      const formmatedText = stripAlignmentMarker(firstChild);
+                      const newChildren = [formmatedText, ...childrenArray.slice(1)];
+                      return <p style={{ textAlign: alignment, margin: '1em 0' }} {...props}>{newChildren}</p>;
+                    }
                   }
-                }
-                return <p {...props}>{children}</p>;
-              },
-              img: ({ node, src, ...props }) => {
-                let finalSrc = src;
-                if (src && src.startsWith('/images/')) {
-                  const filename = src.replace('/images/', '');
-                  const foundKey = Object.keys(localImages).find(key => key.endsWith(`/${filename}`));
-                  if (foundKey) {
-                    finalSrc = localImages[foundKey];
+                  return <p {...props}>{children}</p>;
+                },
+                img: ({ node, src, ...props }) => {
+                  let finalSrc = src;
+                  if (src && src.startsWith('/images/')) {
+                    const filename = src.replace('/images/', '');
+                    const foundKey = Object.keys(localImages).find(key => key.endsWith(`/${filename}`));
+                    if (foundKey) {
+                      finalSrc = localImages[foundKey];
+                    }
                   }
+                  return <StyledImage src={finalSrc} {...props} loading="lazy" />;
+                },
+                blockquote: ({ node, children, ...props }) => {
+                  const data = (node?.data as any)?.hProperties || {};
+                  const propCallout = (props as any)['data-callout'];
+                  const propTitle = (props as any)['data-title'];
+
+                  const calloutType = data['data-callout'] || propCallout;
+                  const calloutTitle = data['data-title'] || propTitle;
+
+                  if (calloutType) {
+                    const color = getCalloutColor(calloutType);
+                    const Icon = getCalloutIcon(calloutType);
+                    const title = calloutTitle || (calloutType.charAt(0).toUpperCase() + calloutType.slice(1));
+
+                    return (
+                      <AlertContainer color={color}>
+                        <AlertTitle color={color}>
+                          <Icon size={18} />
+                          {title}
+                        </AlertTitle>
+                        <AlertContent>{children}</AlertContent>
+                      </AlertContainer>
+                    );
+                  }
+                  return <blockquote {...props}>{children}</blockquote>;
                 }
-                return <StyledImage src={finalSrc} {...props} loading="lazy" />;
-              },
-              blockquote: ({ node, children, ...props }) => {
-                const data = (node?.data as any)?.hProperties || {};
-                const propCallout = (props as any)['data-callout'];
-                const propTitle = (props as any)['data-title'];
-
-                const calloutType = data['data-callout'] || propCallout;
-                const calloutTitle = data['data-title'] || propTitle;
-
-                if (calloutType) {
-                  const color = getCalloutColor(calloutType);
-                  const Icon = getCalloutIcon(calloutType);
-                  const title = calloutTitle || (calloutType.charAt(0).toUpperCase() + calloutType.slice(1));
-
-                  return (
-                    <AlertContainer color={color}>
-                      <AlertTitle color={color}>
-                        <Icon size={18} />
-                        {title}
-                      </AlertTitle>
-                      <AlertContent>{children}</AlertContent>
-                    </AlertContainer>
-                  );
-                }
-                return <blockquote {...props}>{children}</blockquote>;
-              }
-            }}
-          >
-            {note.content}
-          </ReactMarkdown>
-        </MarkdownContent>
-      </ScrollArea>
-    </Container>
+              }}
+            >
+              {note.content}
+            </ReactMarkdown>
+          </MarkdownContent>
+        </ScrollArea>
+      </Container>
+    </>
   );
 };

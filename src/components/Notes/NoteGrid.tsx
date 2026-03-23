@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import styled from '@emotion/styled';
+import { Helmet } from 'react-helmet-async';
 import { useStore } from '../../store/useStore';
 import { NoteCard } from './NoteCard';
 import { FocusView } from './FocusView';
@@ -25,11 +26,10 @@ const FullPanelContainer = styled.div`
 
 const SearchQuoteBox = styled.div`
   background: transparent;
-  /* No border as requested */
   border-radius: 8px;
   padding: 12px;
   margin-bottom: 20px;
-  height: 200px; /* Same as NoteCard height */
+  height: 200px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -60,7 +60,7 @@ const QuoteText = styled.p`
   font-family: 'Georgia', serif;
   font-style: italic;
   color: var(--text-secondary);
-  font-size: 1.0rem; /* 10% smaller */
+  font-size: 1.0rem;
   margin: 0 0 4px 0;
   line-height: 1.4;
 `;
@@ -76,12 +76,10 @@ const QuoteAuthor = styled.p`
 export const NoteGrid: React.FC = () => {
   const { notes, theme, focusedNoteId, setFocusedNoteId, searchQuery, setSearchQuery } = useStore();
 
-  // Sort notes by updatedAt descending
   const sortedNotes = [...notes].sort((a, b) =>
     new Date(b.last_updated).getTime() - new Date(a.last_updated).getTime()
   );
 
-  // Filter notes based on search query
   const filteredNotes = sortedNotes.filter(note => {
     if (!searchQuery) return true;
     const query = searchQuery.toLowerCase();
@@ -91,12 +89,10 @@ export const NoteGrid: React.FC = () => {
     );
   });
 
-  // Apply theme class to body
   useEffect(() => {
     document.body.className = theme === 'dark' ? 'dark-theme' : 'light-theme';
   }, [theme]);
 
-  // Handle Esc to close focus
   useEffect(() => {
     const handleEsc = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
@@ -119,32 +115,40 @@ export const NoteGrid: React.FC = () => {
   }
 
   return (
-    <GridContainer>
-      <SearchQuoteBox>
-        <div style={{ flex: 1, display: 'flex', alignItems: 'center' }}>
-          <SearchInput
-            type="text"
-            placeholder="Search notes..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
+    <>
+      <Helmet>
+        <title>Pritam Sarkar Physics</title>
+        <meta name="description" content="Personal webapp of Pritam Sarkar — theoretical physics, geometry, dynamical systems, cognitive science, philosophy and collective phenomena across the scales." />
+        <meta property="og:title" content="Pritam Sarkar Physics" />
+        <meta property="og:description" content="Personal webapp of Pritam Sarkar — theoretical physics, geometry, dynamical systems, cognitive science, philosophy and collective phenomena across the scales." />
+      </Helmet>
+      <GridContainer>
+        <SearchQuoteBox>
+          <div style={{ flex: 1, display: 'flex', alignItems: 'center' }}>
+            <SearchInput
+              type="text"
+              placeholder="Search notes..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+            />
+          </div>
+          <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+            <QuoteText>
+              Logic takes care of itself;<br />
+              all we have to do<br />
+              is to look and see how it does it.
+            </QuoteText>
+            <QuoteAuthor>- L. Wittgenstein</QuoteAuthor>
+          </div>
+        </SearchQuoteBox>
+        {filteredNotes.map(note => (
+          <NoteCard
+            key={note.id}
+            note={note}
+            onClick={() => setFocusedNoteId(note.id)}
           />
-        </div>
-        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-          <QuoteText>
-            Logic takes care of itself;<br />
-            all we have to do<br />
-            is to look and see how it does it.
-          </QuoteText>
-          <QuoteAuthor>- L. Wittgenstein</QuoteAuthor>
-        </div>
-      </SearchQuoteBox>
-      {filteredNotes.map(note => (
-        <NoteCard
-          key={note.id}
-          note={note}
-          onClick={() => setFocusedNoteId(note.id)}
-        />
-      ))}
-    </GridContainer>
+        ))}
+      </GridContainer>
+    </>
   );
 };
