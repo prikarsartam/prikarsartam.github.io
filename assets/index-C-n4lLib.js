@@ -255,7 +255,7 @@ People interested in ( writing + organising + publishing + visualising ) article
 
 ---
 
-|                Pritam Sarkar                 |                                                                                      *hypernotework*                                                                                       |
+|                Pritam Sarkar                 |                                                                                      *hyperbolic notework*                                                                                       |
 | :------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | ![Diagram](/images/prikarsartam_profile.png) | A scalefree embedding of a hierarchical graph of articles inspired from the Poincaré disk model of hyperbolic geometry and criticality of language. Creator email: prikarsartam@gmail.com. |
 
@@ -278,7 +278,8 @@ last_updated:    "YYYY-MM-DD"
 ---
 -> under construction...
 
----`,xw=`---
+---
+`,xw=`---
 id: cognition
 title: Cognition
 level: "1"
