@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://prikarsartam.github.io/</loc></url>
   <url><loc>https://prikarsartam.github.io/#about</loc></url>
@@ -35,4 +35,14 @@
   <url><loc>https://prikarsartam.github.io/#quantum-information</loc></url>
   <url><loc>https://prikarsartam.github.io/#ubiquitous-emergence-of-scale-free-hierarchy</loc></url>
   <url><loc>https://prikarsartam.github.io/#ubiquity-of-renormalization</loc></url>
+</urlset> -->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://prikarsartam.github.io/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
 </urlset>
