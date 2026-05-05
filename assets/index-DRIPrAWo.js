@@ -254,7 +254,9 @@ last_updated: 2025-10-22
 Scale-free structures are naturally ubiquitous and give rise to hierarchies of objects and concepts at different scales of complexity. Whether a collection of diverse articles is concerned or semantic knowledge graphs of complex text, a scale-free representation of the bird's-eye-view captures the long-range interdependence within, due to the universally critical nature of every major language. However hierarchical graphs are known to be impossible to isometrically (preserving the distances) embed in any Euclidean manifold; but possible, within hyperbolic geometry. The graph in this webapp is made to resemble the discretized geogesics of Poincaré disk model of $2$D hyperbolic geometry.
 
 
-People interested in ( writing + organising + publishing + visualising ) articles/essays/blogs with diverse interdependent topics might enjoy it. Give a try and play around! Any suggestion or improvement is welcome. 
+People interested in ( writing + organising + publishing + visualising ) articles/essays/blogs with diverse interdependent topics might enjoy it. Give a try and play around! 
+
+- Any suggestion or improvement is welcome, so feel free to make to pull request in the repository : https://github.com/prikarsartam/prikarsartam.github.io.
 
 ---
 
