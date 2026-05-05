@@ -72,7 +72,7 @@ system with singular behavior at any quantum critical point. Its universal chara
 a non-integrable model, and proved using renormalization group theory and conformal field theory. Its diagonal elements
 being the uncertainties of the gradient of entanglement Hamiltonian captures the variation of fluctuations in the entanglement spectra. Since this response encodes the intrinsic geometry of the relative-entropy landscape it naturally endows a
 geometric description of quantum phases as disjoint submanifolds of the parameter space and quantum phase transitions
-as the boundary across which no geodesic of finite length can exist.
+as the boundary across which no geodesic of finite length can exist. This reveals a fundamental bridge connecting quantum information theory and renormalization group theory.
 
 
 - Published in Physical Review B : https://link.aps.org/doi/10.1103/nlr8-2rr4
