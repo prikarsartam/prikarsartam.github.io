@@ -48,6 +48,33 @@ last_updated: 2025-12-16
 
 ---
 
+
+<h2 style="text-align: center;">Publication</h2>
+
+
+> [!EXAMPLE] Metric response of relative entropy : a universal indicator of quantum criticality
+> Authors: Pritam Sarkar, [Diptiman Sen](https://chep.iisc.ac.in/Personnel/pages/diptiman/index.html), [Arnab Sen](https://iacs.res.in/athusers/index.php?navid=0&userid=IACS0012)
+> 
+> https://doi.org/10.1103/nlr8-2rr4
+> https://arxiv.org/abs/2509.22515
+> 
+>An intrinsic model-agnostic measure has been proposed for the response of the relative entropy in a many-body quantum
+system with singular behavior at any quantum critical point. Its universal character is demonstrated for an integrable and
+a non-integrable model, and proved using renormalization group theory and conformal field theory. Its diagonal elements
+being the uncertainties of the gradient of entanglement Hamiltonian captures the variation of fluctuations in the entanglement spectra. Since this response encodes the intrinsic geometry of the relative-entropy landscape it naturally endows a
+geometric description of quantum phases as disjoint submanifolds of the parameter space and quantum phase transitions
+as the boundary across which no geodesic of finite length can exist.
+
+
+- Published in Physical Review B : https://link.aps.org/doi/10.1103/nlr8-2rr4
+
+- [Featured contribution in Wolfram community.](https://community.wolfram.com/groups/-/m/t/3342258)
+
+- [Article in Quantum Zeitgeist on the same.](https://quantumzeitgeist.com/quantum-criticality-revealed-metric-response-relative-entropy-diverges-critical/)
+
+
+---
+
 <h2 style="text-align: center;">Reality is Renormalized</h2>
 
 
@@ -182,31 +209,6 @@ Ultimately, the interplay between order and disorder is best quantified in the l
 | <div style="text-align: center;">Theoretical Physics of complex systems, Geometry</div> | ![Diagram](/images/prikarsartam_profile.png)                                                                 | <div style="text-align: center;">Language, Cognition and the Philosophy of Science</div> |
 | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
 | <div style="text-align: center;">Integrated BS-MS</div>                                 | <div style="text-align: center;">Indian Association for the Cultivation of Science, <br>Kolkata, India</div> | <div style="text-align: center;">Physics major</div>                                     |
-
----
-
-<h2 style="text-align: center;">Publication</h2>
-
-
-> [!EXAMPLE] Metric response of relative entropy : a universal indicator of quantum criticality
-> Authors: Pritam Sarkar, [Diptiman Sen](https://chep.iisc.ac.in/Personnel/pages/diptiman/index.html), [Arnab Sen](https://iacs.res.in/athusers/index.php?navid=0&userid=IACS0012)
-> 
-> https://arxiv.org/abs/2509.22515
-> 
->An intrinsic model-agnostic measure has been proposed for the response of the relative entropy in a many-body quantum
-system with singular behavior at any quantum critical point. Its universal character is demonstrated for an integrable and
-a non-integrable model, and proved using renormalization group theory and conformal field theory. Its diagonal elements
-being the uncertainties of the gradient of entanglement Hamiltonian captures the variation of fluctuations in the entanglement spectra. Since this response encodes the intrinsic geometry of the relative-entropy landscape it naturally endows a
-geometric description of quantum phases as disjoint submanifolds of the parameter space and quantum phase transitions
-as the boundary across which no geodesic of finite length can exist.
-
-
-
-
-- [Featured contribution in Wolfram community.](https://community.wolfram.com/groups/-/m/t/3342258)
-
-- [Article in Quantum Zeitgeist on the same.](https://quantumzeitgeist.com/quantum-criticality-revealed-metric-response-relative-entropy-diverges-critical/)
-
 
 ---
 
