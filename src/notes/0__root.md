@@ -101,7 +101,7 @@ As we read a sentence we start with the configurations of letters in the words i
 
 
 
->[!EXAMPLE] A scale is a fixed window of conditions, within which any dynamical effect can be exhaustively classified as being relevant or irrelevant. it sets the natural magnitudes of the relevant effects where the irrelevant effects influence negligibly. in comparison with the relevant ones. 
+>[!EXAMPLE] A scale is a fixed window of conditions, within which any dynamical effect can be exhaustively classified as being relevant or irrelevant. it sets the natural magnitudes of the relevant effects where the irrelevant effects influence negligibly, in comparison with the relevant ones. 
  Under the action of renormalization, every system flows in the `space of all theories`, to a fixed point of two types. One where there is no natural length-scale of correlation, corresponding to a phases of matter, and one where the system exhibits correlations across all its length-scales, uniquely associated with a continuous phase transition. Because the formalism hinges on the behaviours of the attracting fixed points, it does not care about any initial detail. The conclusions are therefore `universal`.  It explains : 
 > - what are all the distinct forms of matter,
 > - why so many spontanously emerged structures around and within us, are geometrically indistinguishable,
