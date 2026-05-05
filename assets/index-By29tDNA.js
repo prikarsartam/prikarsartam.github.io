@@ -63,9 +63,9 @@ last_updated: 2025-12-16
 > [!EXAMPLE] Metric response of relative entropy : a universal indicator of quantum criticality
 > Authors: Pritam Sarkar, [Diptiman Sen](https://chep.iisc.ac.in/Personnel/pages/diptiman/index.html), [Arnab Sen](https://iacs.res.in/athusers/index.php?navid=0&userid=IACS0012)
 > 
-> https://doi.org/10.1103/nlr8-2rr4
+> Phys. Rev. B **113**, 184415 (2026) : https://doi.org/10.1103/nlr8-2rr4,
 > 
-> https://arxiv.org/abs/2509.22515
+> ArXiv : https://arxiv.org/abs/2509.22515. 
 > 
 >An intrinsic model-agnostic measure has been proposed for the response of the relative entropy in a many-body quantum
 system with singular behavior at any quantum critical point. Its universal character is demonstrated for an integrable and
